@@ -10,6 +10,7 @@ class Transfer
   end 
  
   def execute_transaction 
+  end
     
 def valid?
      sender.valid? && receiver.valid? ? 
@@ -38,5 +39,6 @@ def valid?
        self.status = "reversed"
      end
    end
- end 		 
+ end 
+ end 
  
